@@ -1,4 +1,6 @@
-public class CaesarCipher extends Encryption{
+package encryption;
+
+public class CaesarCipher extends Encryption {
     String alphabet;
     int key;
     public CaesarCipher(int key) {

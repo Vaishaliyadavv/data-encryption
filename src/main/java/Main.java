@@ -1,3 +1,7 @@
+import encryption.Base64;
+import encryption.CaesarCipher;
+import encryption.Encryption;
+
 public class Main {
     public static void main(String[] args) {
         Encryption caesar = new CaesarCipher(7);
