@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class CaesarCipher {
+public class CaesarCipher extends Encryption{
+
 }

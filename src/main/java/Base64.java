@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Base64 {
+public class Base64 extends Encryption{
+
 }
