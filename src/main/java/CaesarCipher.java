@@ -1,20 +1,17 @@
 public class CaesarCipher extends Encryption{
-    String data;
     String alphabet;
     int key;
     public CaesarCipher(String data , int key) {
-        this.data = data;
         this.key = key;
         alphabet = "abcdefghijklmnopqrstuvwxyz";
     }
-
     @Override
-    public String encrypt() {
-        return "Caesar Cipher encrypted data: " + this.data;
+    public String encrypt(String input) {
+        return "Caesar Cipher encrypted data: " + input;
     }
 
     @Override
-    public String decrypt() {
-        return "Caesar Cipher decrypted data: " + this.data;
+    public String decrypt(String input) {
+        return "Caesar Cipher decrypted data: " + input;
     }
 }
