@@ -1,7 +1,7 @@
 public class CaesarCipher extends Encryption{
     String alphabet;
     int key;
-    public CaesarCipher(String data , int key) {
+    public CaesarCipher(int key) {
         this.key = key;
         alphabet = "abcdefghijklmnopqrstuvwxyz";
     }
