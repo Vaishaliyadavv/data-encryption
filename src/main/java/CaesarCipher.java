@@ -7,11 +7,11 @@ public class CaesarCipher extends Encryption{
     }
     @Override
     public String encrypt(String input) {
-        return "Caesar Cipher encrypted data: " + input;
+        return "Caesar Cipher encrypted data: " + input + "\nkey: " + key;
     }
 
     @Override
     public String decrypt(String input) {
-        return "Caesar Cipher decrypted data: " + input;
+        return "Caesar Cipher decrypted data: " + input + "\nkey: " + key;
     }
 }
